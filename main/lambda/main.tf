@@ -16,7 +16,7 @@ module "lambda-sample" {
   policy_arns = ["arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
                  "arn:aws:iam::aws:policy/AmazonEC2FullAccess"  
                   ]
-  tags = { "Example" = "some-value" } # the tags to apply to all resources
+  tags = { "Example" = "some-value" } # the tags to apply to all resources.
 
   # optional variables  
   memory_size=  128
